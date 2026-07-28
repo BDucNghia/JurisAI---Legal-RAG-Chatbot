@@ -1,0 +1,18 @@
+# Bỏ qua môi trường ảo của Python
+../.venv/
+venv/
+*.venv
+
+# Bỏ qua các thư mục cache của Python và các công cụ khác
+__pycache__/
+.cache/
+*.pyc
+*.pyo
+
+# Bỏ qua các file cấu hình của IDE
+.idea/
+.vscode/
+
+# Bỏ qua các file log hoặc DB tạm thời nếu có
+*.log
+*.db
