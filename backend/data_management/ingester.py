@@ -1,7 +1,7 @@
 import os
 from .parser import parse_legal_document
 from .db_handler import add_chunks_to_db
-
+from .utils import filter_duplicate_chunks
 
 def ingest_specific_files(list_of_file_paths):
     print("--- BẮT ĐẦU QUY TRÌNH NẠP CÁC FILE CỤ THỂ ---")
@@ -23,7 +23,8 @@ def ingest_specific_files(list_of_file_paths):
         print("Không tạo được chunk nào từ các file được cung cấp.")
         return False, "Không tạo được chunk nào."
 
-    add_chunks_to_db(all_new_chunks)
+    unique_chunks = filter_duplicate_chunks(all_new_chunks)
+    add_chunks_to_db(unique_chunks)
 
     print("--- QUY TRÌNH NẠP TÀI LIỆU MỚI HOÀN TẤT ---")
     return True, f"Đã nạp thành công dữ liệu từ {len(list_of_file_paths)} file."

@@ -93,16 +93,15 @@ Khi hệ thống nhận được câu hỏi từ người dùng, pipeline RAG th
 *   **Quản trị:** Streamlit
 
 
-## Hướng dẫn Chạy Ứng dụng
+# Hướng dẫn Chạy Ứng dụng bằng Docker
 
 ---
 
-Cách này cho phép bạn chạy toàn bộ hệ thống chatbot chỉ với vài lệnh.
-
 ### Yêu cầu
 1.  Đã cài đặt [Git](https://git-scm.com/downloads).
-2.  Đã cài đặt và đang chạy [Docker Desktop](https://www.docker.com/products/docker-desktop/).
-3.  Đã cài đặt và đang chạy [LM Studio](https://lmstudio.ai/).
+2.  Đã cài đặt [GitLFS](https://git-lfs.github.com/)
+3.  Đã cài đặt và đang chạy [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+4.  Đã cài đặt và đang chạy [LM Studio](https://lmstudio.ai/).
 
 ### Các bước thực hiện
 
@@ -120,8 +119,35 @@ Cách này cho phép bạn chạy toàn bộ hệ thống chatbot chỉ với v�
     ```bash
     git clone https://github.com/BDucNghia/JurisAI---Legal-RAG-Chatbot.git
     ```
+    Tải các file văn bản luật
+    ```bash
+    git lfs pull
+    ```
+2.  **Di chuyển vào thư mục project:**
+    ```bash
+    cd JurisAI---Legal-RAG-Chatbot
+    ```
+3. **Tải mô hình embedding** </br>
+    Chạy lệnh sau để tải mô hình embedding `intfloat/multilingual-e5-large`:
+    ```bash
+    python download_embedding_model.py
+    ```
+4. **Tải hoặc tạo ChromaDB dựa trên folder data_final (Chọn 1 trong 2 cách)**
+    *   Cách 1: Ấn vào [đây](https://drive.google.com/drive/folders/1ZbtdpNaqk03Yr_o5iiFwNeHy4OzVIKsd?usp=drive_link) và tải file zip **db.rar** sau đó giải nén và cho vào data/db, cấu trúc sẽ có dạng:
+    ```
+    /main/
+    └── data/
+        └── db/
+            ├── ... (các file của ChromaDB)
+    ```
+    *   Cách 2: Từ thư mục gốc, trong terminal chạy:
+    ```bash
+   python -m data_management.build_full_db
+    ```
+    Lệnh này sẽ đọc dữ liệu từ `data/data_final` và tạo ra cơ sở dữ liệu ChromaDB trong `data/db`. Quá trình này có thể mất vài phút.
 
-2.  **Chạy ứng dụng bằng Docker Compose:**
+
+5. **Chạy ứng dụng bằng Docker Compose:**
     Trong thư mục gốc của project (nơi chứa file `docker-compose.yml`), chạy lệnh:
     ```bash
     docker-compose up --build
@@ -129,7 +155,7 @@ Cách này cho phép bạn chạy toàn bộ hệ thống chatbot chỉ với v�
     *   Lệnh này sẽ tự động build image cho backend và khởi động container. Quá trình này có thể mất vài phút ở lần đầu tiên.
     *   Hãy để yên terminal này, nó sẽ hiển thị log của backend.
 
-3.  **Chạy giao diện Frontend:**
+6. **Chạy giao diện Frontend:**
     *   Mở một **terminal mới**.
     *   Di chuyển vào thư mục `frontend`:
         ```bash
@@ -139,13 +165,23 @@ Cách này cho phép bạn chạy toàn bộ hệ thống chatbot chỉ với v�
         ```bash
         python -m http.server 8000
         ```
+7. **Chạy ứng dụng Admin:** (tùy chọn, nếu bạn muốn quản lý dữ liệu)
+    *   Mở một **terminal mới**.
+    *   Di chuyển vào thư mục `backend`:
+    ```bash
+    cd backend
+    ```
+    *   Chạy ứng dụng Admin:
+    ```bash
+    streamlit run admin_app.py
+    ```  
+
 
 **Bước 3: Trải nghiệm Chatbot**
 
 1.  Mở trình duyệt web của bạn.
 2.  Truy cập địa chỉ: `http://localhost:8000`
 3.  Bắt đầu đặt câu hỏi và trải nghiệm!
-
 
 
 ## Hướng dẫn dành cho Nhà phát triển (Developer Guide)
@@ -156,10 +192,9 @@ Nếu bạn muốn chạy các script quản trị (thêm/xóa dữ liệu) ho�
 
 ### Yêu cầu
 *   Cài đặt Python 3.12+.
-*   Kiến thức về môi trường ảo Python.
 
 ### Các bước
-1.  **Clone project** (như trên).
+1.  **Clone project** (như trên Bước 1 và 2 ).
 2.  **Tạo và kích hoạt môi trường ảo:**
     ```bash
     # Bên trong thư mục backend
@@ -180,9 +215,9 @@ Nếu bạn muốn chạy các script quản trị (thêm/xóa dữ liệu) ho�
     streamlit run admin_app.py
     ```
 5.  **Chạy các script khác:**
-    Luôn chạy từ thư mục gốc của project (`D:\RAG`) bằng cờ `-m`.
+    Luôn chạy từ thư mục gốc của project bằng cờ `-m`.
     ```bash
-    # Ví dụ
-    python -m backend.data_management.ingest_logic
+    # Chạy ứng dụng
+    python -m backend.app
     ```
     

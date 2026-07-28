@@ -1,10 +1,6 @@
 import chromadb
-import sys
-import os
 from langchain_community.vectorstores import Chroma
 from tqdm import tqdm
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from backend.config.config import CHROMA_DB_PATH
 from backend.utils.vector_db import get_embeddings

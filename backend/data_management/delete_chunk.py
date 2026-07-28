@@ -1,7 +1,6 @@
 import os
 import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from backend.data_management.db_handler import delete_docs_from_db
 from backend.config.config import DATA_FINAL_PATH
