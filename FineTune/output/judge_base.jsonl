@@ -1,0 +1,100 @@
+{"id": "q001", "grounded": true, "hallucination": false, "short_reason": "Mức lương trong thời gian thử việc phải ít nhất bằng 85% mức lương của công việc đó theo Bộ luật Lao động."}
+{"id": "q002", "grounded": true, "hallucination": false, "short_reason": "Phần còn lại của hợp đồng vẫn tiếp tục hiệu lực theo quy định pháp luật hoặc thỏa ước lao động tập thể."}
+{"id": "q003", "grounded": false, "hallucination": true, "short_reason": "Không có cơ sở pháp lý để khẳng định quyền yêu cầu thay đổi người quản lý trực tiếp vì bị phân biệt đối xử."}
+{"id": "q004", "grounded": true, "hallucination": false, "short_reason": "Không, doanh nghiệp không được yêu cầu người lao động ký cam kết không mang thai trong thời gian làm việc vì vi phạm quyền lợi pháp lý của người lao động nữ mang thai theo Bộ luật Lao động."}
+{"id": "q005", "grounded": true, "hallucination": false, "short_reason": "KPI quá cao có thể dẫn đến làm thêm giờ vượt quá giới hạn quy định hoặc không tuân thủ các điều kiện được quy định tại Điều 107 và Điều 108 Bộ luật Lao động."}
+{"id": "q006", "grounded": true, "hallucination": false, "short_reason": "The main conclusion is supported by the context of Điều 21 Bộ luật Lao động and Điều 167."}
+{"id": "q007", "grounded": true, "hallucination": false, "short_reason": "Không có quy định cho phép doanh nghiệp thay đổi giờ làm việc mà không sửa đổi hợp đồng lao động."}
+{"id": "q008", "grounded": false, "hallucination": false, "short_reason": "Không có thông tin về mối liên hệ giữa việc điều chuyển vị trí và quyền khiếu nại."}
+{"id": "q009", "grounded": true, "hallucination": false, "short_reason": "Việc ghi 'các nhiệm vụ khác theo yêu cầu' được coi là hợp pháp nếu được thể hiện trong hợp đồng và có cơ sở pháp lý rõ ràng."}
+{"id": "q010", "grounded": false, "hallucination": true, "short_reason": "The answer adds an unsupported condition about 'Điều 33 Bộ Luật Lao động' and does not clearly explain how it applies to the situation."}
+{"id": "q011", "grounded": true, "hallucination": false, "short_reason": "Người sử dụng lao động phải trang cấp phương tiện bảo vệ cá nhân cho người lao động theo quy định của Thông tư."}
+{"id": "q012", "grounded": false, "hallucination": true, "short_reason": "The answer introduces an unsupported conclusion about 'quy định pháp luật cụ thể' without providing evidence from the context."}
+{"id": "q013", "grounded": false, "hallucination": true, "short_reason": "The answer assumes that there is no regulation about employee consent for performance tracking software, but the provided sources do not cover this specific topic."}
+{"id": "q014", "grounded": false, "hallucination": false, "short_reason": "Không có thông tin trong các nguồn trích dẫn để khẳng định người lao động có quyền tiếp cận hồ sơ đánh giá nội bộ liên quan đến mình."}
+{"id": "q015", "grounded": true, "hallucination": false, "short_reason": "Không có quy định về thời gian 'chờ việc không lương' đối với doanh nghiệp trong các văn bản nêu."}
+{"id": "q016", "grounded": true, "hallucination": false, "short_reason": "Không có quy định báo trước khi thay đổi cơ cấu phòng ban mà không giảm nhân sự."}
+{"id": "q017", "grounded": true, "hallucination": false, "short_reason": "Không có quy định nào trong các nguồn trích dẫn về việc làm bán thời gian sau khi hết thời gian thai sản."}
+{"id": "q018", "grounded": false, "hallucination": true, "short_reason": "Answer adds unsupported condition about 'giờ hành chính'"}
+{"id": "q019", "grounded": false, "hallucination": true, "short_reason": "The answer claims that the law does not recognize the right to request clarification of the legal basis for disciplinary decisions, but this is not explicitly stated in any of the provided sources."}
+{"id": "q020", "grounded": false, "hallucination": true, "short_reason": "Không có quy định trong các văn bản trích dẫn về việc doanh nghiệp được giữ bản scan giấy tờ cá nhân thay vì bản gốc."}
+{"id": "q021", "grounded": true, "hallucination": false, "short_reason": "Kết luận dựa trên quy định chung về phụ lục hợp đồng và không có thông tin cụ thể về 'dự án nội bộ'."}
+{"id": "q022", "grounded": true, "hallucination": false, "short_reason": "Không có thông tin nào trong các nguồn trích dẫn về việc đánh giá xếp loại lao động cuối năm hay việc công khai liên quan đến nội dung đó."}
+{"id": "q023", "grounded": true, "hallucination": false, "short_reason": "Không có quy định cấm người lao động làm việc bên ngoài cạnh tranh trong các văn bản pháp luật được trích dẫn."}
+{"id": "q024", "grounded": false, "hallucination": true, "short_reason": "Không có quy định nào trong các nguồn trích dẫn nêu về quyền của người lao động yêu cầu làm rõ tiêu chí xét thưởng."}
+{"id": "q025", "grounded": true, "hallucination": false, "short_reason": "Thay đổi địa điểm làm việc trong cùng tỉnh không thuộc trường hợp cần sự đồng ý của người lao động theo Điều 28 Bộ luật Lao động."}
+{"id": "q026", "grounded": false, "hallucination": true, "short_reason": "Không có quy định cụ thể về quyền từ chối công việc vượt quá khả năng chuyên môn trong hợp đồng lao động."}
+{"id": "q027", "grounded": true, "hallucination": false, "short_reason": "Không có quy định trong các văn bản trích dẫn về việc áp dụng thử việc lại khi người lao động quay lại làm việc sau thời gian nghỉ dài."}
+{"id": "q028", "grounded": false, "hallucination": true, "short_reason": "The answer adds an unsupported condition about 'tham vấn người lao động' which is not mentioned in any of the provided sources."}
+{"id": "q029", "grounded": true, "hallucination": false, "short_reason": "Người lao động có quyền yêu cầu hòa giải nội bộ trước khi khiếu nại ra bên ngoài theo quy định tại Điều 188 của Bộ luật Lao động."}
+{"id": "q030", "grounded": false, "hallucination": true, "short_reason": "Không thể kết luận chắc chắn từ ngữ cảnh hiện có."}
+{"id": "q031", "grounded": false, "hallucination": true, "short_reason": "The answer introduces an unsubstantiated claim that changing job titles without altering salaries does not require contract modifications."}
+{"id": "q032", "grounded": true, "hallucination": false, "short_reason": "Không có quy định về quyền yêu cầu giải trình lý do không tăng lương định kỳ của người lao động trong các văn bản cung cấp."}
+{"id": "q033", "grounded": true, "hallucination": false, "short_reason": "Doanh nghiệp có thể quy định thời gian 'on-call' ngoài giờ làm việc trong các trường hợp đặc biệt được quy định tại Điều 108 Bộ luật Lao động."}
+{"id": "q034", "grounded": true, "hallucination": false, "short_reason": "Không có quy định pháp luật nào trong các nguồn trích dẫn nêu trên về quyền từ chối ký biên bản họp của người lao động khi nội dung không phản ánh đúng thực tế."}
+{"id": "q035", "grounded": true, "hallucination": false, "short_reason": "Không ảnh hưởng đến quyền hưởng BHXH nếu thời gian đóng bảo hiểm xã hội được thực hiện đúng quy định."}
+{"id": "q036", "grounded": true, "hallucination": false, "short_reason": "The answer accurately reflects the consequences of a business paying late BHXH but still deducting employee wages, as outlined in the provided legal documents."}
+{"id": "q037", "grounded": true, "hallucination": false, "short_reason": "Cơ quan bảo hiểm xã hội chỉ quy định quyền yêu cầu người sử dụng lao động cung cấp thông tin lương, không quy định quyền của người lao động để yêu cầu BHXH xác minh mức lương đóng khi nghi ngờ bị khai thấp."}
+{"id": "q038", "grounded": true, "hallucination": false, "short_reason": "Thời gian làm việc thử việc có trả lương được tính vào thời gian đóng BHXH và không bị truy đóng theo quy định."}
+{"id": "q039", "grounded": true, "hallucination": false, "short_reason": "Không có quy định cho phép người lao động tự đóng bù cho thời gian doanh nghiệp nợ."}
+{"id": "q040", "grounded": false, "hallucination": true, "short_reason": "Không có thông tin về mức đóng BHXH khi chuyển từ toàn thời gian sang bán thời gian."}
+{"id": "q041", "grounded": true, "hallucination": false, "short_reason": "The main conclusion is supported by the context, but it's based on general information about điều chỉnh thông tin cá nhân rather than specific details about sổ BHXH điện tử."}
+{"id": "q042", "grounded": false, "hallucination": true, "short_reason": "The answer introduces an unsupported condition about needing more information to determine BHXH eligibility."}
+{"id": "q043", "grounded": false, "hallucination": true, "short_reason": "Không có quy định cho phép người lao động yêu cầu công ty cung cấp chứng từ đóng BHXH hàng tháng."}
+{"id": "q044", "grounded": false, "hallucination": true, "short_reason": "Không có văn bản cụ thể quy định cách xử lý việc chốt sổ BHXH khi doanh nghiệp phá sản."}
+{"id": "q045", "grounded": true, "hallucination": false, "short_reason": "Không được hưởng đồng thời"}
+{"id": "q046", "grounded": true, "hallucination": false, "short_reason": "Không có quy định nào cho thấy việc nghỉ không lương do thỏa thuận cá nhân làm gián đoạn đóng BHXH."}
+{"id": "q047", "grounded": true, "hallucination": false, "short_reason": "Luật Bảo hiểm xã hội quy định thời gian đã đóng bảo hiểm xã hội được bảo lưu khi người lao động chấm dứt đóng bảo hiểm xã hội bắt buộc và chuyển sang đóng tự nguyện, nếu chưa đủ điều kiện hưởng lương hưu, chưa nhận bảo hiểm xã hội một lần hoặc chưa hưởng trợ cấp hằng tháng."}
+{"id": "q048", "grounded": true, "hallucination": false, "short_reason": "Không có cơ sở pháp lý cho việc người lao động tự kiểm tra lịch sử điều chỉnh mức lương đóng BHXH."}
+{"id": "q049", "grounded": true, "hallucination": false, "short_reason": "Tai nạn xảy ra ngoài giờ làm việc nhưng liên quan đến nhiệm vụ được giao vẫn được coi là tai nạn lao động nếu xảy ra trong quá trình thực hiện nhiệm vụ theo sự phân công của người chỉ huy hoặc người được ủy quyền."}
+{"id": "q050", "grounded": false, "hallucination": true, "short_reason": "The answer claims that the context does not provide information about the right to request an explanation of the result, but it actually provides several regulations on the process and time limits for resolving benefits, without mentioning a specific right to request an explanation."}
+{"id": "q051", "grounded": false, "hallucination": true, "short_reason": "Không có thông tin cụ thể về mối liên hệ giữa việc thay đổi CCCD và việc cập nhật mã số BHXH trong các văn bản trích dẫn."}
+{"id": "q052", "grounded": true, "hallucination": false, "short_reason": "Luật quy định người lao động làm việc cho nhiều công ty phải tham gia bảo hiểm xã hội tại mỗi nơi làm việc."}
+{"id": "q053", "grounded": true, "hallucination": false, "short_reason": "Doanh nghiệp không được gộp nhiều tháng đóng BHXH một lần vì các văn bản chỉ quy định về người tham gia bảo hiểm xã hội tự nguyện."}
+{"id": "q054", "grounded": true, "hallucination": false, "short_reason": "Người lao động có quyền khiếu nại trực tiếp lên cơ quan bảo hiểm xã hội theo quy định của Luật Bảo hiểm xã hội và các nghị định liên quan."}
+{"id": "q055", "grounded": false, "hallucination": false, "short_reason": "Không có quy định cụ thể về quyền lợi khi mất dữ liệu BHXH do lỗi hệ thống."}
+{"id": "q056", "grounded": true, "hallucination": false, "short_reason": "Người lao động có quyền ủy quyền cho người khác thực hiện các thủ tục bảo hiểm xã hội theo quy định tại Điều 10 Luật Bảo hiểm xã hội."}
+{"id": "q057", "grounded": false, "hallucination": true, "short_reason": "Không có thông tin trong các nguồn trích dẫn để khẳng định thời gian nghỉ việc riêng dài ngày được tính vào thời gian tham gia BHXH."}
+{"id": "q058", "grounded": true, "hallucination": false, "short_reason": "Các quy định về chuyển địa phương làm việc và quản lý hồ sơ BHXH được rõ ràng trong các văn bản pháp luật"}
+{"id": "q059", "grounded": true, "hallucination": false, "short_reason": "Người lao động không được phép yêu cầu thanh tra BHXH trực tiếp theo Luật Bảo hiểm xã hội."}
+{"id": "q060", "grounded": true, "hallucination": false, "short_reason": "Người lao động đã hưởng lương hưu không còn thuộc đối tượng đóng bảo hiểm xã hội bắt buộc."}
+{"id": "q061", "grounded": true, "hallucination": false, "short_reason": "Không được phép lựa chọn mức thu nhập khác mức lương thực tế để đóng BHXH bắt buộc."}
+{"id": "q062", "grounded": true, "hallucination": false, "short_reason": "Việc đóng BHXH trên mức lương cao hơn thực tế không được quy định trong Luật Bảo hiểm xã hội và các văn bản hướng dẫn."}
+{"id": "q063", "grounded": false, "hallucination": true, "short_reason": "Câu trả lời không được xác nhận rõ ràng trong ngữ cảnh và thêm điều kiện không có trong văn bản"}
+{"id": "q064", "grounded": false, "hallucination": true, "short_reason": "The provided context does not explicitly state that BHXH is affected by a change in company name without changing tax code."}
+{"id": "q065", "grounded": true, "hallucination": false, "short_reason": "Không có thông tin về việc thời gian nghỉ thai sản ảnh hưởng đến mốc xét nâng lương hưu."}
+{"id": "q066", "grounded": true, "hallucination": false, "short_reason": "Người lao động có quyền được cơ quan bảo hiểm xã hội cung cấp thông tin về việc đóng, hưởng bảo hiểm xã hội."}
+{"id": "q067", "grounded": true, "hallucination": false, "short_reason": "The main conclusion is supported by the context of Điều 10 của Nghị định quy định về mức đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp."}
+{"id": "q068", "grounded": true, "hallucination": false, "short_reason": "Không có văn bản pháp luật nào quy định công ty phải cung cấp 'bảng tính thuế TNCN hàng tháng' cho người lao động."}
+{"id": "q069", "grounded": true, "hallucination": false, "short_reason": "The main conclusion is supported by the context and relevant laws."}
+{"id": "q070", "grounded": true, "hallucination": false, "short_reason": "Thu nhập phát sinh từ nền tảng số nước ngoài nhưng nhận tại Việt Nam phải kê khai và nộp thuế nếu đáp ứng các điều kiện theo quy định."}
+{"id": "q071", "grounded": false, "hallucination": true, "short_reason": "The sources do not explicitly state that people cannot adjust information on the electronic tax system."}
+{"id": "q072", "grounded": true, "hallucination": false, "short_reason": "Khoản hỗ trợ chi phí làm việc tại nhà không bị tính thuế TNCN nếu thuộc các khoản được quy định miễn."}
+{"id": "q073", "grounded": true, "hallucination": false, "short_reason": "All sources agree that thu nhập nhận bằng ngoại tệ được quy đổi ra Đồng Việt Nam theo tỷ giá giao dịch bình quân trên thị trường ngoại tệ liên ngân hàng."}
+{"id": "q074", "grounded": false, "hallucination": true, "short_reason": "No specific information about accepting scanned files for tax declaration"}
+{"id": "q075", "grounded": false, "hallucination": true, "short_reason": "No specific regulation about khấu trừ thuế đối với quyền lợi phi tiền mặt in the context."}
+{"id": "q076", "grounded": false, "hallucination": true, "short_reason": "The answer introduces an unsupported condition about 'các trường hợp được quy định tại Điều 12 Thông tư 111/2013/TT-BTC' without clear context."}
+{"id": "q077", "grounded": false, "hallucination": true, "short_reason": "Không có thông tin về quyền điều chỉnh thuế đã khấu trừ sai trong các tháng trước."}
+{"id": "q078", "grounded": true, "hallucination": false, "short_reason": "Khoản hỗ trợ đào tạo cá nhân không được nêu trong danh mục các khoản lợi ích hoặc trợ cấp được quy định."}
+{"id": "q079", "grounded": false, "hallucination": true, "short_reason": "Không có quy định rõ ràng về việc cập nhật thuế khi thay đổi tình trạng hôn nhân."}
+{"id": "q080", "grounded": false, "hallucination": true, "short_reason": "No clear regulation about self-declaration of income after resignation"}
+{"id": "q081", "grounded": false, "hallucination": true, "short_reason": "The provided context does not mention anything about tax declaration authorization for workers who have worked less than 12 months."}
+{"id": "q082", "grounded": false, "hallucination": true, "short_reason": "The answer claims there is no information about TNCN tax on fine, but it should be 'no information about applying TNCN tax on fine'."}
+{"id": "q083", "grounded": true, "hallucination": false, "short_reason": "Thu nhập từ việc chia sẻ doanh thu nội bộ công ty không phải chịu thuế thu nhập doanh nghiệp vì đây là hoạt động quản trị nội bộ."}
+{"id": "q084", "grounded": false, "hallucination": true, "short_reason": "The answer introduces unsupported legal conditions and assumes a specific type of tax without clear context."}
+{"id": "q085", "grounded": true, "hallucination": false, "short_reason": "Không có thông tin trong các nguồn trích dẫn cho thấy người lao động có thể đăng ký người phụ thuộc ngược lại."}
+{"id": "q086", "grounded": false, "hallucination": true, "short_reason": "Không có quy định về thời điểm tính thuế đối với thu nhập từ thưởng cổ phần trong các văn bản được cung cấp."}
+{"id": "q087", "grounded": false, "hallucination": true, "short_reason": "The answer introduces an unrelated concept of 'hài cốt liệt sĩ' and incorrectly concludes that there is no information about chi phí di chuyển giữa các chi nhánh."}
+{"id": "q088", "grounded": false, "hallucination": true, "short_reason": "Không có quy định về việc cấp lại chứng từ khấu trừ thuế nếu bị mất."}
+{"id": "q089", "grounded": true, "hallucination": false, "short_reason": "Thu nhập phát sinh từ hợp đồng ngắn hạn dưới 1 tháng không được quyết toán cuối năm theo quy định hiện hành."}
+{"id": "q090", "grounded": false, "hallucination": true, "short_reason": "Added unsupported condition 'trừ khi có quy định cụ thể về việc quyết toán theo từng trường hợp'"}
+{"id": "q091", "grounded": false, "hallucination": true, "short_reason": "The provided sources do not mention anything about declaring income from part-time work outside regular hours."}
+{"id": "q092", "grounded": true, "hallucination": false, "short_reason": "Người lao động không được tra cứu lịch sử quyết toán thuế các năm trước do thông tin này thuộc phạm vi bảo mật theo Điều 99 Luật Quản lý thuế."}
+{"id": "q093", "grounded": false, "hallucination": true, "short_reason": "The question's context does not clearly specify the type of support (e.g., for employees) and its tax implications."}
+{"id": "q094", "grounded": true, "hallucination": false, "short_reason": "Thu nhập nhận từ quỹ phúc lợi nội bộ công ty không phải chịu thuế thu nhập cá nhân nếu được sử dụng theo mục đích phúc lợi chung."}
+{"id": "q095", "grounded": true, "hallucination": false, "short_reason": "Cần cập nhật thông tin thuế khi thay đổi nơi cư trú sang tỉnh khác theo quy định tại Điều 25 và Điều 11 của Thông tư quy định về đăng ký thuế, cũng như Điều 36 Luật Quản lý thuế."}
+{"id": "q096", "grounded": true, "hallucination": false, "short_reason": "Người lao động không được ủy quyền quyết toán thuế cho đơn vị cũ sau khi nghỉ việc theo quy định tại Thông tư số 92/2015/TT-BTC."}
+{"id": "q097", "grounded": true, "hallucination": false, "short_reason": "Không có thông tin trong các văn bản cung cấp cho thấy thu nhập từ việc tham gia khảo sát, nghiên cứu thị trường phải kê khai thuế."}
+{"id": "q098", "grounded": true, "hallucination": false, "short_reason": "Luật Quản lý thuế không quy định tính lãi đối với khoản tiền hoàn thuế nhận muộn."}
+{"id": "q099", "grounded": true, "hallucination": false, "short_reason": "Thu nhập từ việc bán tài sản cá nhân không đăng ký kinh doanh phải nộp thuế thu nhập cá nhân."}
+{"id": "q100", "grounded": true, "hallucination": false, "short_reason": "Không có văn bản trích dẫn nào đề cập đến quyền của người lao động yêu cầu cơ quan thuế giải trình chi tiết kết quả quyết toán."}

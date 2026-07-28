@@ -1,0 +1,18 @@
+services:
+  rag_service:
+    build:
+      context: ./backend
+    container_name: rag_service_container
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data/db:/app/data/db
+      - ./data/embed_model:/app/data/embed_model
+      - ./data/data_final:/app/data/data_final
+    environment:
+      - DOCKER_CONTAINER=true
+      - CHROMA_DB_PATH=/app/data/db
+      - LOCAL_EMBEDDING_MODEL_PATH=/app/data/embed_model
+      - DATA_FINAL_PATH=/app/data/data_final
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

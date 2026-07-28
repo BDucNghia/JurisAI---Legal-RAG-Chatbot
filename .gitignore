@@ -1,0 +1,50 @@
+# Dữ liệu và mô hình
+data/data_final/
+data/embed_model/
+data/db/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env
+*.env
+.venv/
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Docker
+*.pid
+docker-compose.override.yml
+.dockerignore
+
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.npy
+*.npz
+*.pkl
+
+.ipynb_checkpoints/
+
+*.so
+
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+*.orig

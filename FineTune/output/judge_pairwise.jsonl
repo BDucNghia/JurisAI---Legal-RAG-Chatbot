@@ -1,0 +1,100 @@
+{"id": "q001", "preferred": "A", "reason": "short"}
+{"id": "q002", "preferred": "A", "reason": "Dựa vào Điều 51 của Bộ luật Lao động, phần còn lại của hợp đồng vẫn được thực hiện theo quy định pháp luật hoặc thỏa ước lao động tập thể."}
+{"id": "q003", "preferred": "A", "reason": "Không có cơ sở pháp lý để khẳng định quyền yêu cầu thay đổi người quản lý trực tiếp vì bị phân biệt đối xử."}
+{"id": "q004", "preferred": "A", "reason": "Answer A cung cấp thêm thông tin và lý do cụ thể về việc doanh nghiệp không được yêu cầu người lao động ký cam kết không mang thai trong thời gian làm việc, đồng thời trích dẫn các quy định pháp luật liên quan."}
+{"id": "q005", "preferred": "A", "reason": "short"}
+{"id": "q006", "preferred": "A", "reason": "cụ thể hơn về địa điểm làm việc tại nhà và bảo hiểm xã hội, y tế, thất nghiệp"}
+{"id": "q007", "preferred": "A", "reason": "short"}
+{"id": "q008", "preferred": "B", "reason": "short"}
+{"id": "q009", "preferred": "A", "reason": "Answer A cung cấp thông tin chi tiết và cụ thể về việc ghi 'các nhiệm vụ khác theo yêu cầu' trong mô tả công việc, đồng thời giải thích rõ ràng về giới hạn của việc này."}
+{"id": "q010", "preferred": "B", "reason": "short"}
+{"id": "q011", "preferred": "A", "reason": "Theo Thông tư quy định, người sử dụng lao động phải trang cấp phương tiện bảo vệ cá nhân cho người lao động để bảo vệ sức khỏe trong điều kiện lao động. Người lao động không phải trả tiền cho việc sử dụng phương tiện bảo vệ cá nhân và có quyền yêu cầu bổ sung hoặc thay đổi phù hợp với thực tế."}
+{"id": "q012", "preferred": "B", "reason": "Giới hạn ngữ cảnh"}
+{"id": "q013", "preferred": "B", "reason": "short"}
+{"id": "q014", "preferred": "B", "reason": "Giới hạn ngữ cảnh: Không có văn bản pháp luật nêu rõ quyền tiếp cận hồ sơ đánh giá nội bộ của người lao động."}
+{"id": "q015", "preferred": "B", "reason": "short"}
+{"id": "q016", "preferred": "A", "reason": "short"}
+{"id": "q017", "preferred": "A", "reason": "short"}
+{"id": "q018", "preferred": "tie", "reason": "short"}
+{"id": "q019", "preferred": "B", "reason": "short"}
+{"id": "q020", "preferred": "B", "reason": "short"}
+{"id": "q021", "preferred": "A", "reason": "short"}
+{"id": "q022", "preferred": "A", "reason": "Giới hạn ngữ cảnh"}
+{"id": "q023", "preferred": "B", "reason": "short"}
+{"id": "q024", "preferred": "B", "reason": "Giới hạn ngữ cảnh không đủ thông tin để khẳng định người lao động có quyền yêu cầu làm rõ tiêu chí xét thưởng trong nội quy lao động."}
+{"id": "q025", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Tôi đánh giá hai đáp án A và B như sau:\n\n**Đáp án A:**\n\n* Đúng về cơ bản: Theo Điều 28 Bộ luật Lao động, địa điểm làm việc phải được thực hiện theo hợp đồng lao động, trừ trường hợp hai bên có thỏa thuận khác.\n* Đúng về kết luận: Không cần sự đồng ý của người lao động khi doanh nghiệp thay đổi địa điểm làm việc trong cùng tỉnh.\n\n**Đáp án B:**\n\n* Đúng về cơ bản: Theo Điều 28 Bộ luật Lao động, địa điểm làm việc được thực hiện theo hợp đồng lao động, trừ"}
+{"id": "q026", "preferred": "B", "reason": "short"}
+{"id": "q027", "preferred": "B", "reason": "short"}
+{"id": "q028", "preferred": "A", "reason": "short"}
+{"id": "q029", "preferred": "A", "reason": "điều 188 Bộ luật Lao động quy định rõ các trường hợp không bắt buộc phải qua thủ tục hòa giải, nhưng không cấm người lao động yêu cầu hòa giải nội bộ trước khi khiếu nại ra bên ngoài"}
+{"id": "q030", "preferred": "B", "reason": "short"}
+{"id": "q031", "preferred": "tie", "reason": "short"}
+{"id": "q032", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Tôi đánh giá Answer B là chính xác hơn.\n\nGiải thích: Các văn bản trích dẫn không đề cập đến quyền của người lao động yêu cầu giải trình về việc không tăng lương định kỳ. Mặc dù có các quy định về tiền lương và chế độ nâng bậc lương, nhưng không có quy định nào cho phép người lao động yêu cầu công ty giải trình lý do không tăng lương định kỳ.\n\nDo đó, Answer B: \"Không có quy định pháp luật cho phép người lao động yêu cầu công ty giải trình lý do không tăng lương định kỳ.\" là lựa chọn tốt nhất."}
+{"id": "q033", "preferred": "A", "reason": "short"}
+{"id": "q034", "preferred": "A", "reason": "Giới hạn ngữ cảnh không cung cấp thông tin về quyền từ chối ký biên bản họp của người lao động khi nội dung không phản ánh đúng thực tế."}
+{"id": "q035", "preferred": "A", "reason": "short"}
+{"id": "q036", "preferred": "B", "reason": "short"}
+{"id": "q037", "preferred": "A", "reason": "short"}
+{"id": "q038", "preferred": "A", "reason": "short"}
+{"id": "q039", "preferred": "A", "reason": "short"}
+{"id": "q040", "preferred": "A", "reason": "Giới hạn ngữ cảnh"}
+{"id": "q041", "preferred": "B", "reason": "short"}
+{"id": "q042", "preferred": "A", "reason": "short"}
+{"id": "q043", "preferred": "B", "reason": "short"}
+{"id": "q044", "preferred": "tie", "reason": "short"}
+{"id": "q045", "preferred": "B", "reason": "short"}
+{"id": "q046", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Tôi đánh giá hai câu trả lời A và B dựa trên các tiêu chí chính xác, phù hợp với ngữ cảnh và ngắn gọn. Dưới đây là kết quả đánh giá:\n\n**Câu trả lời A:**\n\n* Chính xác: 9/10 (có thể hiểu lầm về \"không làm gián đoạn\" nhưng vẫn đúng về bản chất)\n* Phù hợp với ngữ cảnh: 8,5/10 (có thể không rõ ràng về việc \"không làm gián đoạn\")\n* Ngắn gọn: 9/10\n\n**Câu trả lời B:**\n\n* Chính xác:"}
+{"id": "q047", "preferred": "A", "reason": "short"}
+{"id": "q048", "preferred": "A", "reason": "short"}
+{"id": "q049", "preferred": "A", "reason": "short"}
+{"id": "q050", "preferred": "B", "reason": "short"}
+{"id": "q051", "preferred": "B", "reason": "short"}
+{"id": "q052", "preferred": "A", "reason": "short"}
+{"id": "q053", "preferred": "A", "reason": "short"}
+{"id": "q054", "preferred": "A", "reason": "cụ thể và chính xác hơn về quyền khiếu nại trực tiếp lên BHXH mà không cần thông qua công ty."}
+{"id": "q055", "preferred": "B", "reason": "short"}
+{"id": "q056", "preferred": "B", "reason": "đúng với nội dung tại Điều 10, Khoản d, Luật Bảo hiểm xã hội"}
+{"id": "q057", "preferred": "B", "reason": "Giới hạn ngữ cảnh: Không đủ thông tin để xác định chính xác liệu thời gian nghỉ việc riêng dài ngày có được tính vào thời gian tham gia BHXH hay không."}
+{"id": "q058", "preferred": "A", "reason": "cụ thể, chi tiết hơn về quy trình chuyển hồ sơ BHXH cho các trường hợp trong quân đội và công an"}
+{"id": "q059", "preferred": "A", "reason": "short"}
+{"id": "q060", "preferred": "A", "reason": "Người lao động đã hưởng lương hưu và không còn thuộc đối tượng đóng bảo hiểm xã hội bắt buộc, chỉ có thể tham gia bảo hiểm xã hội tự nguyện."}
+{"id": "q061", "preferred": "A", "reason": "short"}
+{"id": "q062", "preferred": "A", "reason": "short"}
+{"id": "q063", "preferred": "B", "reason": "Giới hạn ngữ cảnh"}
+{"id": "q064", "preferred": "A", "reason": "short"}
+{"id": "q065", "preferred": "B", "reason": "Giới hạn ngữ cảnh không đủ dữ kiện để khẳng định hoặc bác bỏ tác động của thời gian nghỉ thai sản đến mốc xét nâng lương hưu."}
+{"id": "q066", "preferred": "A", "reason": "short"}
+{"id": "q067", "preferred": "B", "reason": "short"}
+{"id": "q068", "preferred": "A", "reason": "short"}
+{"id": "q069", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Sau khi so sánh hai đáp án A và B, tôi đánh giá như sau:\n\n- Cả hai đáp án đều đề cập đến việc xác định giá trị tính thuế khi nhận thu nhập bằng hiện vật.\n- Đáp án A cung cấp thông tin chi tiết về cách xác định giá trị tính thuế cho từng loại tài sản (chứng khoán, phần vốn góp, bất động sản, tài sản khác).\n- Đáp án B cũng đề cập đến các loại tài sản và phương pháp xác định giá trị tính thuế tương tự như đáp án A.\n- Tuy nhiên, đáp án B có một số điểm khác biệt nhỏ trong"}
+{"id": "q070", "preferred": "A", "reason": "short"}
+{"id": "q071", "preferred": "B", "reason": "Không có thông tin trong ngữ cảnh cho thấy người lao động có thể tự điều chỉnh thông tin giảm trừ gia cảnh trên hệ thống thuế điện tử."}
+{"id": "q072", "preferred": "B", "reason": "cụ thể hóa và phân biệt rõ bản chất của khoản hỗ trợ"}
+{"id": "q073", "preferred": "B", "reason": "short"}
+{"id": "q074", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Tôi sẽ đánh giá hai câu trả lời và đưa ra kết quả cuối cùng dựa trên thông tin có sẵn.\n\nCả hai câu trả lời đều cho rằng không thể khẳng định được người lao động có thể nộp hồ sơ quyết toán thuế bằng bản scan hay không. Tuy nhiên, Answer A cung cấp thêm một số thông tin về giới hạn của câu trả lời, trong khi Answer B chỉ đưa ra kết luận chung.\n\nDựa trên tiêu chí \"các câu trả lời phải chính xác và dựa trên ngữ cảnh\", tôi sẽ chọn Answer A là câu trả lời tốt hơn vì nó cung cấp thêm thông tin về giới"}
+{"id": "q075", "preferred": "B", "reason": "short"}
+{"id": "q076", "preferred": "B", "reason": "short"}
+{"id": "q077", "preferred": "A", "reason": "short"}
+{"id": "q078", "preferred": "A", "reason": "short"}
+{"id": "q079", "preferred": "A", "reason": "short"}
+{"id": "q080", "preferred": "B", "reason": "short"}
+{"id": "q081", "preferred": "tie", "reason": "short"}
+{"id": "q082", "preferred": "A", "reason": "short"}
+{"id": "q083", "preferred": "A", "reason": "short"}
+{"id": "q084", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Tôi là một nhà đánh giá pháp lý nghiêm ngặt. Dưới đây là so sánh giữa Answer A và Answer B:\n\n**So sánh Answer A và Answer B:**\n\n- **Đúng**: Cả hai câu trả lời đều đúng về cơ bản, nhưng có sự khác biệt trong cách trình bày và chi tiết.\n- **Sự chính xác**: Answer A cung cấp thông tin cụ thể hơn về quy định pháp lý liên quan đến hoàn thuế tiền nộp thừa (Điều 70 và Điều 76 Luật Quản lý thuế), trong khi Answer B tập trung vào việc đề nghị hoàn thuế và quyết định của cơ quan thuế."}
+{"id": "q085", "preferred": "A", "reason": "Giới hạn ngữ cảnh"}
+{"id": "q086", "preferred": "A", "reason": "short"}
+{"id": "q087", "preferred": "B", "reason": "Không có thông tin pháp lý nào trong ngữ cảnh xác định tính thuế đối với khoản hỗ trợ chi phí di chuyển giữa các chi nhánh."}
+{"id": "q088", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Sau khi đánh giá và so sánh hai đáp án A và B, tôi kết luận:\n\n**Tie**\n\nCả hai đáp án đều không chính xác hoàn toàn.\n\nĐáp án A cho rằng người lao động không thể yêu cầu công ty cấp lại chứng từ khấu trừ thuế, nhưng thực tế là các văn bản chỉ quy định về việc cấp chứng từ khấu trừ thuế theo yêu cầu của cá nhân và không có quy định cụ thể về việc cấp lại chứng từ khấu trừ thuế.\n\nĐáp án B cho rằng người lao động có quyền yêu cầu công ty cấp chứng từ khấu trừ thuế trong các trường hợp"}
+{"id": "q089", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Answer A là câu trả lời chính xác và phù hợp với quy định hiện hành. Câu trả lời này dựa trên các văn bản hướng dẫn về thuế thu nhập cá nhân, trong đó có quy định về trường hợp không phải quyết toán thuế đối với thu nhập từ tiền lương, tiền công ký hợp đồng ngắn hạn dưới 1 tháng.\n\nDo đó, tôi đánh giá Answer A là câu trả lời tốt nhất và đề xuất \"A\" làm kết quả cuối cùng."}
+{"id": "q090", "preferred": "B", "reason": "short"}
+{"id": "q091", "preferred": "B", "reason": "short"}
+{"id": "q092", "preferred": "A", "reason": "short"}
+{"id": "q093", "preferred": "B", "reason": "short"}
+{"id": "q094", "preferred": "A", "reason": "short"}
+{"id": "q095", "preferred": "A", "reason": "có căn cứ pháp lý rõ ràng từ các văn bản luật và thông tư liên quan"}
+{"id": "q096", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Dựa trên thông tin và quy định pháp luật cung cấp, tôi đánh giá rằng:\n\n- Answer A: Đúng\n- Answer B: Sai\n\nLý do là vì người lao động có thể ủy quyền quyết toán thuế cho đơn vị cũ sau khi nghỉ việc nếu đáp ứng các điều kiện được quy định tại Thông tư 92/2015/TT-BTC. Theo đó, người lao động chỉ cần ký hợp đồng lao động từ 03 (ba) tháng trở lên tại một tổ chức, cá nhân trả thu nhập và thực tế đang làm việc tại đó vào thời điểm ủy quyền quyết toán thuế.\n\nDo đó,"}
+{"id": "q097", "preferred": "A", "reason": "short"}
+{"id": "q098", "preferred": "tie", "reason": "PARSE_ERROR: No JSON object found in response.", "raw_head": "Dựa trên các nguồn trích dẫn và phân tích, tôi đánh giá rằng Answer A là câu trả lời chính xác hơn. \n\nCả hai câu trả lời đều cho rằng khoản tiền hoàn thuế nhận muộn không được tính lãi, nhưng Answer A đưa ra lý do chi tiết hơn về quy định pháp luật liên quan đến việc chậm hoàn thuế và tính lãi.\n\nDo đó, tôi đề xuất kết luận: **\"A\"**"}
+{"id": "q099", "preferred": "A", "reason": "short"}
+{"id": "q100", "preferred": "A", "reason": "các văn bản trích dẫn không đề cập đến quyền của người lao động yêu cầu cơ quan thuế giải trình chi tiết kết quả quyết toán."}
