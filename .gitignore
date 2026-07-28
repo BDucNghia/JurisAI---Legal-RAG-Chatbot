@@ -18,6 +18,8 @@ venv/
 
 # VSCode settings
 .vscode/
+.idea/
+
 
 # MacOS
 .DS_Store
