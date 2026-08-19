@@ -56,13 +56,13 @@ Khi hệ thống nhận được câu hỏi từ người dùng, pipeline RAG th
 Đây là giai đoạn nhằm tối ưu hóa hành vi sinh câu trả lời của LLM. Dự án triển khai một pipeline **RLAIF (Reinforcement Learning from AI Feedback)** để tinh chỉnh mô hình.
 
 1.  **Tự động tạo Dữ liệu Sở thích (Preference Data Generation):**
-    *   **Mô hình Sinh (Generator):** Mô hình **`vinai/Vinallama-7B-Chat`** được sử dụng để tạo ra hai phiên bản câu trả lời cho mỗi câu hỏi, dựa trên cùng một ngữ cảnh. Sự khác biệt được tạo ra bằng cách thay đổi chiến lược sinh văn bản.
-    *   **Mô hình Giám khảo (Judge):** Một mô hình có khả năng suy luận mạnh hơn là **`Vistral-7B-Chat`** được sử dụng để so sánh hai câu trả lời và chọn ra câu tốt hơn (`chosen`) và câu kém hơn (`rejected`), dựa trên một bộ tiêu chí được định nghĩa trước (ưu tiên độ chính xác và bám sát ngữ cảnh).
+    *   **Mô hình Sinh (Generator):** Mô hình **`Qwen3-4B-Instruct`** được sử dụng để tạo ra hai phiên bản câu trả lời cho mỗi câu hỏi, dựa trên cùng một ngữ cảnh. Sự khác biệt được tạo ra bằng cách thay đổi chiến lược sinh văn bản.
+    *   **Mô hình Giám khảo (Judge):** Một mô hình có khả năng suy luận mạnh hơn là **`Meta-Llama-3.1-8B-Instruct`** được sử dụng để so sánh hai câu trả lời và chọn ra câu tốt hơn (`chosen`) và câu kém hơn (`rejected`), dựa trên một bộ tiêu chí được định nghĩa trước (ưu tiên độ chính xác và bám sát ngữ cảnh).
     *   Quá trình này được tự động hóa hoàn toàn bằng script (`collect_aif_data.py`), cho phép tạo ra một bộ dữ liệu sở thích quy mô lớn mà không cần gán nhãn thủ công.
 
 2.  **Huấn luyện với KTO (Kahneman-Tversky Optimization):**
     *   Dữ liệu sở thích sau đó được định dạng lại để phù hợp với yêu cầu của **KTO**, một kỹ thuật fine-tuning dựa trên sở thích (preference-based).
-    *   Mô hình chatbot chính (ví dụ: `Qwen/Qwen2-4B-Instruct`) được fine-tune bằng `KTOTrainer` của thư viện Hugging Face TRL.
+    *   Mô hình chatbot chính được fine-tune bằng `KTOTrainer` của thư viện Hugging Face TRL.
     *   Để thực hiện trên phần cứng cá nhân (GPU 8GB VRAM), kỹ thuật **QLoRA** (Quantized Low-Rank Adaptation) đã được áp dụng, cho phép fine-tune hiệu quả bằng cách tải mô hình ở dạng 4-bit và chỉ huấn luyện một số lượng nhỏ các tham số.
 
 ![Kết quả fine-tune](./docs/ketquafinetune.png)
@@ -208,7 +208,7 @@ Nếu bạn muốn chạy các script quản trị (thêm/xóa dữ liệu) ho�
     ```
 3.  **Cài đặt dependencies:**
     ```bash
-    pip install -r requirements.txt
+    pip install -r backend/requirements.txt
     ```
 4.  **Chạy ứng dụng Admin:**
     ```bash

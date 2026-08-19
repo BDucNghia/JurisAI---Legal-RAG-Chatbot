@@ -107,9 +107,6 @@ def judge_pair(context: str, question: str, answer_a: str, answer_b: str) -> dic
 
 
 
-# =========================
-# Phase 1: Generate A/B pairs
-# =========================
 def run_generate():
     print("--- PHASE 1: GENERATE A/B PAIRS ---")
     print(">>> Hãy load Qwen/Qwen3-4B-Instruct-2507 trong LM Studio và bật server trước. <<<")
@@ -205,12 +202,9 @@ def compress_context_for_judge(
 
     return "\n".join(selected)
 
-# =========================
-# Phase 2: Judge + filter -> KTO dataset
-# =========================
 def run_judge():
     print("\n--- PHASE 2: JUDGE + FILTER -> KTO DATASET ---")
-    print(">>> Bây giờ hãy tắt Qwen, load JUDGE model (vd Llama-2-13B-Instruct / Mistral) trong LM Studio. <<<")
+    print(">>> Bây giờ hãy tắt Qwen, load JUDGE model trong LM Studio. <<<")
     print(">>> Set temperature ~0.0 để judge ổn định. <<<")
 
     with open(PAIRS_FILE, "r", encoding="utf-8") as f:
