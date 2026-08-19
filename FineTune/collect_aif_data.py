@@ -124,7 +124,7 @@ def run_generate():
                 prompt_a = gen_prompt_strict(context, q)
                 prompt_b = gen_prompt_loose(context, q)
 
-                # A: strict & stable, B: loose & diverse
+                # A: strict & stable, B: loose & diversez
                 ans_a = generate_answer(prompt_a, temperature=0.2, max_tokens=512)
                 ans_b = generate_answer(prompt_b, temperature=0.7, max_tokens=512)
 

@@ -8,37 +8,6 @@ from trl import KTOTrainer, KTOConfig, apply_chat_template
 import re
 import hashlib
 
-def dedup_context_by_sources(context: str) -> str:
-    if not context:
-        return context
-
-    # Chuẩn hóa xuống dòng
-    ctx = context.replace("\r\n", "\n").strip()
-
-    # Tách theo marker nguồn
-    # Mỗi block sẽ bắt đầu bằng '--- Nguồn trích dẫn số'
-    parts = re.split(r"(?=---\s*Nguồn trích dẫn số\s*\d+\s*---)", ctx, flags=re.IGNORECASE)
-
-    seen = set()
-    kept = []
-    for p in parts:
-        p = p.strip()
-        if not p:
-            continue
-
-        # Hash theo nội dung "cốt lõi" để bắt trùng (bỏ số nguồn)
-        core = re.sub(r"---\s*Nguồn trích dẫn số\s*\d+\s*---", "--- Nguồn trích dẫn ---", p, flags=re.IGNORECASE)
-        core = re.sub(r"[ \t]+", " ", core)
-        core = re.sub(r"\n{3,}", "\n\n", core).strip()
-
-        h = hashlib.sha256(core.encode("utf-8")).hexdigest()
-        if h in seen:
-            continue
-        seen.add(h)
-        kept.append(p)
-
-    return "\n\n".join(kept).strip()
-
 
 os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True,max_split_size_mb:128")
 
@@ -96,7 +65,7 @@ if missing:
     raise ValueError(f"Dataset thiếu cột: {missing}. Cần có: {sorted(required_cols)}")
 
 # =========================
-# 4) Helpers: làm sạch + cắt context để tránh quá dài (giúp khỏi OOM)
+# 4) Helpers: làm sạch + cắt context để tránh quá dài
 # =========================
 def normalize_ws(text: str) -> str:
     text = text.replace("\r\n", "\n")
@@ -105,7 +74,6 @@ def normalize_ws(text: str) -> str:
     return text.strip()
 
 def truncate_by_chars(text: str, max_chars: int = 6000) -> str:
-    # cắt theo ký tự cho đơn giản; sau này muốn chuẩn theo token thì mình chỉnh tiếp
     text = text.strip()
     if len(text) <= max_chars:
         return text
@@ -119,11 +87,7 @@ SYSTEM_PROMPT = (
 
 def build_user_prompt(question: str, context: str) -> str:
     question = normalize_ws(question)
-
-    # ✅ khử trùng lặp trước
-    context = dedup_context_by_sources(normalize_ws(context))
-
-    # ✅ rồi mới cắt ngắn để tránh OOM
+    context = normalize_ws(context)
     context = truncate_by_chars(context, max_chars=6000)
 
     return (
@@ -158,19 +122,16 @@ def to_rows(example):
         "label": False,
     }
 
-    # trả về list 2 dict (2 rows)
     return {"rows": [chosen_row, rejected_row]}
 
 tmp = raw.map(to_rows, remove_columns=raw.column_names)
 
-# tmp["rows"] là list các list => flatten thành dataset mới
 all_rows = []
 for r in tmp["rows"]:
     all_rows.extend(r)
 
 unpaired = Dataset.from_list(all_rows)
 
-# apply_chat_template: giờ mỗi row prompt/completion là list messages đúng format
 unpaired = unpaired.map(
     apply_chat_template,
     fn_kwargs={"tokenizer": tokenizer},
